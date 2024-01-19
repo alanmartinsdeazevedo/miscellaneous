@@ -1,0 +1,14 @@
+// Clicar botão
+function clicarNoBotao() {
+  var botao = document.querySelector('.refresh-table');
+  if (botao) {
+    botao.click();
+  }
+}
+
+var intervalo = setInterval(clicarNoBotao, 30000); // Tempo em milissegundos
+
+// Parar o intervalo
+// setTimeout(function() {
+//   clearInterval(intervalo);
+// }, tempo_limite_em_milissegundos);
